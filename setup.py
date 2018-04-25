@@ -128,7 +128,7 @@ def create_builder():
                         if os.path.isfile('Makefile'):
                             os.system(' '.join([make, 'submodules']))
                         else:
-                            os.system(' '.join(['git', 'clone', '-b', 'v0.8.0', 
+                            os.system(' '.join(['git', 'clone',  
                                 'https://github.com/alanxz/rabbitmq-c.git',
                                 'rabbitmq-c']))
 
